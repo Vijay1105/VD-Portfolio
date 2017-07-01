@@ -1,0 +1,88 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+.row
+{
+	max-width:1140px;
+	margin:0 auto;
+}
+body
+{
+	font-family:Times New Roman;
+}
+.head
+{
+	position:absolute;
+	width:1140px;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7)),url("../img/Enter.jpg");
+	height:100vh;
+	background-position:center;
+	background-size:cover;
+}
+h1,h2
+{
+	color:white;
+}
+.main-nav{
+	list-style:none;
+	float:right;
+	margin-top:50px;
+    z-index: 10;
+	
+}
+.main-nav a:hover
+{
+	color:#848484;
+	border-bottom:1px solid #848484;
+	transition:all 0.5s ease-in;
+}
+.main-nav li
+{
+	display:inline-block;
+	margin-left:20px;
+}
+.main-nav li a{
+	color:white;
+	text-decoration:none;
+	font-size:100%;
+	font-weight:bold;
+}
+.btn
+{
+	border:1px solid white;
+	padding: 10px 30px;
+	color:white;
+text-decoration:none;
+border-radius:12px;
+margin-right:20px;
+	}
+.buttn
+{
+	margin-top:50px;
+}
+.btn-half:hover
+{
+	background-color:white;
+	color:black;
+	transition:all 0.5s ease-in;
+
+	}
+.btn-full:hover
+{
+	background-color:white;
+	color:black;
+	transition:all 0.5s ease-in;
+}
+.logo
+{
+	margin-top:50px;
+linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.7));
+	}
